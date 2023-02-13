@@ -22,8 +22,8 @@ source 'https://rubygems.org'
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '1e39347d5' #      Remove redundant code for test-queue
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: 'bc05b36d6' #      Fix a crash on Lint/UselessAssignment
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '0154d2a23' # GOOD Merge pull request #11491 from gsamokovarov/fix-useless-assignment-crash
-gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '8ef0ed0ef' # GOOD [Fix #11517] Make `Lint/Debugger` aware of some debug methods
-# gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: 'c9ccb2f35' #  BAD Change include paths to be relative to working directory rather than derived dir
+# gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '8ef0ed0ef' # GOOD [Fix #11517] Make `Lint/Debugger` aware of some debug methods
+gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: 'c9ccb2f35' #  BAD Change include paths to be relative to working directory rather than derived dir
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '2bfd01e54' #  BAD Speed up `empty_brackets?`
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: 'acface485' #      Make signature of `empty_brackets?` backwards-compatible
 # gem 'rubocop', git: 'https://github.com/rubocop/rubocop.git', ref: '767b1f6b7' #      Fix missing parentheses in shorthand hash syntax as argument calls
