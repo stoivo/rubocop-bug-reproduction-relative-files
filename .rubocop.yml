@@ -1,0 +1,23 @@
+require:
+  - ./lib/rubocop/no_empty_factories.rb
+
+# Please keep AllCops, Bundler, Layout, Style, Metrics groups and then order cops
+# alphabetically
+#
+# References:
+#   * https://github.com/bbatsov/ruby-style-guide
+#   * https://rubocop.readthedocs.io/
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  UseCache: false
+
+# custom cops to enforce factory hygiene
+Custom/NoEmptyFactories:
+  Include:
+    - "spec/factories/**/*"
+  # Include:
+  #   - "no files since it is overwritten spec/factories/factories/.rubocop"

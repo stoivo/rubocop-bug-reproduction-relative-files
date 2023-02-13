@@ -1,0 +1,11 @@
+inherit_from: ../../.rubocop.yml
+
+Style/GlobalVars:
+  AllowedVariables:
+    - '$currency'
+    - '$country'
+    - '$created_by_user'
+
+# Custom/NoEmptyFactories:
+#   Include:
+#     - "/**/*"
